@@ -1,0 +1,44 @@
+/* Base */
+body {
+  background-color: #ffff;
+  color: #434455;
+  font-family: Roboto, sans-serif;
+}
+
+/* Header */
+.heder {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Herov section */
+
+.button {
+  border: none;
+  background-color: #4d5ae5;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  cursor: pointer;
+  width: 169px;
+  height: 56px;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 4px;
+  padding: 16px 32px;
+  width: 169px;
+  height: 56px;
+  text-transform: capitalize;
+  margin: 0 auto;
+  display: block;
+}
+
+/* Our advantages */
+
+/* Our team section */
+
+/* Our Portfolio */
+
+/* Footer */
+/*
+  text-transform: uppercase; */
