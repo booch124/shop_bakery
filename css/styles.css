@@ -1,8 +1,19 @@
 /* Base */
+root {
+  --color-primary-dark: #31261a;
+  --color-primary-loght: #faf4ea;
+  --color-brand-dark: #465929;
+  --color-brand-light: #819b57;
+}
+
 body {
-  background-color: #ffff;
-  color: #434455;
-  font-family: Roboto, sans-serif;
+  background-color: #faf4ea;
+  color: #09061c;
+  font-family: Saira, sans-serif;
+}
+
+ul {
+  list-style-type: none;
 }
 
 /* Header */
@@ -11,34 +22,120 @@ body {
   justify-content: space-around;
 }
 
-/* Herov section */
-
 .button {
-  border: none;
-  background-color: #4d5ae5;
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  cursor: pointer;
-  width: 169px;
-  height: 56px;
-  color: #ffffff;
-  text-align: center;
-  border-radius: 4px;
+  border: 2px solid #819b57;
+  background: #819b57;
+  border-radius: 8px;
   padding: 16px 32px;
-  width: 169px;
-  height: 56px;
-  text-transform: capitalize;
-  margin: 0 auto;
-  display: block;
+  width: 238px;
+  height: 59px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #faf4ea;
+  cursor: pointer;
 }
 
-/* Our advantages */
+.button:active {
+  border: 2px solid #819b57;
+  background-color: #faf4ea;
+  border-radius: 8px;
+  padding: 16px 32px;
+  width: 238px;
+  height: 59px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #465929;
+  cursor: pointer;
+}
 
-/* Our team section */
+.menu-link {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  color: #faf4ea;
+  text-decoration: none;
+}
 
-/* Our Portfolio */
+.menu-link:active {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  text-align: center;
+  color: #819b57;
+}
 
+/* Main sections */
+
+.main-titel {
+  color: #faf4ea;
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-size: 128px;
+  text-align: center;
+}
+.main-titel .accent {
+  color: #819b57;
+}
+
+/* our tradition */
+
+.section-titel {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-size: 64px;
+}
+.advantages-list {
+  backdrop-filter: blur(4px);
+  background-color: #819b57;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  color: #faf4ea;
+}
+
+.text-brand-text-bold-text-uppercase {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #819b57;
+}
+
+.text-brand-text-bold {
+  font-weight: 600;
+  color: #819b57;
+}
+
+.section-titel .accent {
+  color: #465929;
+}
+
+/*  best sheff    */
+
+.secondary-titel {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  color: #31261a;
+}
+
+/* formats  */
+.cardc-titel {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  color: #faf4ea;
+}
+
+.cards-text {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  color: #faf4ea;
+}
 /* Footer */
 /*
   text-transform: uppercase; */

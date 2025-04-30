@@ -5,6 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Сучасна пекарня</title>
     <link rel="stylesheet" href="css/styles.css" />
+
+    <!--fonts-->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Saira:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+
+<!--normalize 2.0.0-->
+<link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+    />
   </head>
   <body>
     <!--Heder-->
@@ -12,45 +25,52 @@
       <a href="./index.html"><img src="./images/logo.svg" alt="Shop Bakery"> </a>
       <nav class="heder-menu">
         <ul>
-          <li><a href="#traditions-section">Наші традиції</a></li>
-          <li><a href="#chef-section">Шеф-кухарі</a></li>
-          <li><a href="#formats-section">Формати</a></li>
-          <li><a href="#contacts-sections">Контакти</a></li>
+          <li><a class="menu-link" href="#traditions-section">Наші традиції</a></li>
+          <li><a class="menu-link" href="#chef-section">Шеф-кухарі</a></li>
+          <li><a class="menu-link" href="#formats-section">Формати</a></li>
+          <li><a class="menu-link" href="#contacts-sections">Контакти</a></li>
         </ul>
       </nav>
-      <button type="button">Змовити дзвінок</button>
+      <button type="button" class="button">Змовити дзвінок</button>
     </header>
     <main>
+
       <!-- Main section-->
+
       <section>
-        <h1>Сучасна пекарня</h1>
-        <ul>
+        <h1 class="main-titel"><span class="accent">Сучасна</span> пекарня</h1>
+      </section>
+
+      <!--our tradition-->
+
+      <section id="traditions-section">
+         <ul class="advantages-list">
           <li>Великий попит на ринку</li>
           <li>Доступні за бюджетом формати</li>
           <li>Досвідчена управлінська команда</li>
         </ul>
-      </section>
-      <!--our tradition-->
-      <section id="traditions-section">
-        <h2>Новий формат традицій</h2>
+        <h2 class="section-titel">Новий формат традицій</h2>
         <p>
-          <span>shop bakery</span> — це пекарня, яка взяла все найкраще, і
+          <span class="text-brand-text-bold-text-uppercase">shop bakery</span> — це пекарня, яка взяла все найкраще, і
           зберегла смак традиційної випічки та натуральність інгредієнтів.
         </p>
         <p>
           Ми працюємо як найвідоміші мережі—
-          <span>5 хвилин і замовлення готове.</span>
+          <span class="text-brand-text-bold">5 хвилин і замовлення готове.</span>
           А ще у наших пекарень стильний дизайн та висока якість обслуговування!
         </p>
         <img src="./images/bread-maker.jpg" alt="Випікання хлібу з любовью">
       </section>
+
       <!--best sheff-->
+
       <section id="chef-section">
-        <h2>Наші найкращі <span>шеф -кухарі</span></h2>
+        <h2 class="section-titel">Наші найкращі <span class="accent">шеф-кухарі</span></h2>
         <ul>
           <li>
             <artical>
-              <h3>Настя</h3>
+              <img src="./images/nastia.jpg" alt="Настя кухар">
+              <h3 class="secondary-titel">Настя</h3>
               <p>Привіт, я Настя!</p>
               <p>Вже 10 років, я свтілюю у життя цікаві та смачні ідеї.</p>
               <p>Я випічу для вас найсмачніщі вироби!</p>
@@ -58,7 +78,8 @@
           </li>
           <li>
             <artical>
-              <h3>Влад</h3>
+              <img src="./images/vlad.jpg" alt="Влад кухар">
+              <h3 class="secondary-titel">Влад</h3>
               <p>Привіт, я Влад!</p>
               <p>
                 Мій кодитерський стаж вже 18 років. <span> SHOP BEKERY</span> -
@@ -70,13 +91,16 @@
           </li>
         </ul>
       </section>
+
       <!--format-->
+
       <section id="formats-section">
-        <h2>Формати</h2>
+        <h2 class="section-titel">Формати</h2>
         <ul>
           <li>
-            <artical
-              ><h4 lang="en">Walrus</h4>
+            <artical class="cards-text">
+<img src="./images/walrus.jpg" alt="walrus">
+              <h4 class="cardc-titel" lang="en">Walrus</h4>
               <p>Площа: до 120 м2</p>
               <p>Меню: розширене меню</p>
               <p>
@@ -87,8 +111,9 @@
             >
           </li>
           <li>
-            <artical>
-              <h4 lang="en">Horseshoe</h4>
+            <artical class="cards-text">
+              <img src="./images/horseshoe.jpg" alt="horseshoe">
+              <h4 class="cardc-titel" lang="en">Horseshoe</h4>
               <p>Площа: до 25 м2</p>
               <p>Меню: найпопулярніші позиції меню</p>
               <p>Штат: 2 продавці-касири, 2 пекарі, 1 помічник пекаря</p>
@@ -96,8 +121,9 @@
             >
           </li>
           <li>
-            <artical>
-              <h4 lang="en">Handlebar</h4>
+            <artical class="cards-text">
+              <img src="./images/handlebar.jpg" alt="handlebar">
+              <h4 class="cardc-titel" lang="en">Handlebar</h4>
               <p>Площа: до 15 м2</p>
               <p>Меню: найпопулярніші позиції меню</p>
               <p>Штат: 1 продавець, 1 пекар, 1 помічник пекаря</p>
@@ -106,10 +132,12 @@
           </li>
         </ul>
       </section>
+
       <!--Contacts-->
+
       <section id="contacts-sections">
-        <h2>Приєднуйся до мережі пекарень</h2>
-        <button type="button">Змовити дзвінок</button>
+        <h2 class="section-titel">Приєднуйся до мережі пекарень</h2>
+        <button type="button" class="button">Змовити дзвінок</button>
 
 
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.1636289098733!2d30.4912733!3d50.4566776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce637c006b2d%3A0xaf86385f19996ff0!2z0LLRg9C70LjRhtGPINCh0ZbRh9C-0LLQuNGFINCh0YLRgNGW0LvRjNGG0ZbQsiwgNTQsINCa0LjRl9CyLCAwMjAwMA!5e0!3m2!1suk!2sua!4v1745920033635!5m2!1suk!2sua" 
@@ -123,15 +151,17 @@
        
       </section>
     </main>
+
     <!--footer-->
+
     <footer>
       <nav class="footer-menu">
      <a href="./index.html"><img src="./images/logo.svg" alt="Shop Bakery"> </a>
         <ul>
-          <li><a href="#traditions-section">Наші традиції</a></li>
-          <li><a href="#chef-section">Шеф-кухарі</a></li>
-          <li><a href="#formats-section">Формати</a></li>
-          <li><a href="#contacts-sections">Контакти</a></li>
+          <li><a href="#traditions-section" class="menu-link">Наші традиції</a></li>
+          <li><a href="#chef-section" class="menu-link">Шеф-кухарі</a></li>
+          <li><a href="#formats-section" class="menu-link">Формати</a></li>
+          <li><a href="#contacts-sections" class="menu-link">Контакти</a></li>
         </ul>
       </nav>
       <address>
